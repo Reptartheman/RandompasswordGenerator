@@ -13,7 +13,7 @@ function generatePassword() {
  return newPassword;
 
 }
-console.log(generatePassword(8));
+
   
   
 
@@ -24,7 +24,7 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+ passwordText.value = password;
 
 }
 
