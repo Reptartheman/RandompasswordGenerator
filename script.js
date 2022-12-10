@@ -3,7 +3,11 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
  var maxlen = prompt ("How many characters would you like your password to have?");
- var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+"
+ var letters = confirm ("You need lowercase and uppercase letters");
+ var numbersspecchar = confirm ("You also need numbers and special characters");
+ var characters = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*+");
+ 
+
  var newPassword = "";
  var size = characters.length;
  for (var i = 0; i < maxlen; i++ ){
@@ -20,7 +24,7 @@ function generatePassword() {
 
 
 // Write password to the #password input
-function writePassword() {
+ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -30,7 +34,7 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
+ 
 
 
 
