@@ -4,3 +4,6 @@
 ## Instructions for use are simple. Upon entering the web app you are met with a series of prompts and confirms and then a new secure password is generated in the box on the screen where the user can copy and paste their password into whatever the corresponding username will be.
 
 ## For this web abb I used various sources, mainly my mother-in-law who is a software engineer whose knowledge of app building is vast. I also used MDN Web Docs, W3 schools, and various Instagram and YouTube pages to guide me through this assignment.
+
+
+## Deployed link: https://reptartheman.github.io/RandompasswordGenerator/

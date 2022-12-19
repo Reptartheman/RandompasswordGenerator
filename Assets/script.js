@@ -3,8 +3,9 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
  var maxlen = prompt ("How many characters would you like your password to have?");
- var letters = confirm ("You need lowercase and uppercase letters");
- var numbersspecchar = confirm ("You also need numbers and special characters");
+ var letters1 = confirm ("Would you like to have uppercase letters?");
+ var letters2 = confirm ("Would you like to have lowercase letter?");
+ var numbersspecchar = confirm ("Would you like to have numbers and special characers?");
  var characters = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*+");
  
 
